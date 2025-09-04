@@ -1,0 +1,51 @@
+Area de troca
+
+.header{
+    display: flex;
+
+}
+
+.header-logo img{
+    
+}
+
+.header-menu ul{
+
+}
+
+.header-menu li{
+
+}
+
+/* Hover é quando vc passa o mouse me cima do elemento */
+.header-menu li:hover{
+
+}
+
+.header-login{
+    
+
+}
+
+.header-icon figure{
+
+}
+
+.header-icon img{
+
+}
+
+/* Focus é quando vc clica em cima do elemento */
+.header-search input:focus{
+
+}
+
+.main-content{
+
+}
+
+.content-sec01{
+
+}
+
+
