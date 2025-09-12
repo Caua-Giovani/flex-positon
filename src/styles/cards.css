@@ -15,8 +15,15 @@
     box-shadow: 0 8px 10px rgb(95, 95, 95);
     height: 430px;
     transition: 0.2s ease;
+    overflow: hidden;
     
 }
+
+.speaker-card figcaption{
+    padding: 7px;
+}
+
+
 
 .speaker-card h3{
     color: black;
@@ -31,6 +38,7 @@
 }
 
 .speaker-card:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 0 10px 50px rgb(75, 75, 75);
+    cursor: pointer;
 }
