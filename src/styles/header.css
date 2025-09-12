@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    align-items: center;
+
+    background-color:dimgray;
+    justify-content: space-between;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    padding: 0 20px;
+
+    height: 8vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    z-index: 1000;
+}
+
+.header-logo img{
+    height: 55px;
+    display: flex;
+}
+
+.header-menu ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    /* Espaço entre os itens (gap) */
+    gap: 40px;
+}
+
+.header-menu li{
+    align-content: center;
+    background-color:white ;
+    padding:  8px 15px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(69, 68, 68,1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* muda o estilo do cursor */
+    cursor:pointer;
+    user-select: none;
+}
+
+/* Hover é quando vc passa o mouse me cima do elemento */
+.header-menu li:hover{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    
+
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.header-icon img{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 2px solid #000000;
+}
+
+.header-search input{
+    padding: 7px 12px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 180px;
+    color: black;
+
+}
+
+/* Focus é quando vc clica em cima do elemento */
+.header-search input:focus{
+    border-color: black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
