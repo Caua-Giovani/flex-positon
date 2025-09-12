@@ -43,12 +43,14 @@
     /* muda o estilo do cursor */
     cursor:pointer;
     user-select: none;
+    border: 2px solid black;
 }
 
 /* Hover é quando vc passa o mouse me cima do elemento */
 .header-menu li:hover{
     background-color: rgb(44, 44, 44);
     color: white;
+    border: 2px solid rgb(173, 173, 173);
     
 }
 

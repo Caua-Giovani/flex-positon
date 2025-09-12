@@ -1,3 +1,36 @@
 .speaker-card img{
     width: 300px;
+    border-radius: 20px;
+    border: 2px solid black ;
+
+}
+.speaker-card {
+    background-color: rgb(138, 134, 134);
+    color: black;
+    width: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 0 8px 10px rgb(95, 95, 95);
+    height: 430px;
+    transition: 0.2s ease;
+    
+}
+
+.speaker-card h3{
+    color: black;
+    font-size: 28px;
+
+}
+
+.speaker-card p{
+    color: rgb(66, 65, 65);
+    font-size: 20px;
+    
+}
+
+.speaker-card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 50px rgb(75, 75, 75);
 }
